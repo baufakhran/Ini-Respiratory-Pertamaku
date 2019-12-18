@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	padding-left: 50px; 
+}
+
+nav img{
+	margin-top: 3px;
+	height: 50px;
+}
+
+ul{
+	position: absolute;
+	top: 5px;
+	width: 50%;
+	display: inline-block;
+	margin-left: 50%;
+}
+
+li{
+	display:  inline-block;
+	color: black;
+	margin: 0 10px;
+	font-family: "kalam";
+}
+
+
+#welcome{
+	background-image: url(asset/bg-welcome.png);
+	background-size: 100%; 
+	background-position: center;
+	color: white;
+	margin-top: 50px;
+	height: 400px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+#welcome a{
+	color: white;
+	font-family: "caveat";
+	line-height: 8em;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+h1{
+	font-family: "Kaushan Script";
+	font-size: 40px;
+	line-height: 1em;
+}
+
+h2{
+	line-height: 0;
+	font-family: "kalam";
+	text-align: center;
+	margin-top: 0;
+}
+
+h3{
+	margin: 0 auto; 
+	width: 300px;
+	border-bottom: 1px solid white; 
+	font-family: "Permanent Marker";
+	text-align: center;
+}
+
+h4{
+	margin: 0 auto;
+	font-family: "kalam";
+	color: white;
+}
+
+h5{
+	padding-left: 150px;
+	color: white;
+}
+
+p{
+	width: 70%;
+	margin: 0 auto;
+	font-family: "Itim";
+}
+
+article{
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+#explore1{
+	height: 600px;
+	background-color: #579a9f;
+	text-align: center;
+}
+
+#explore1 img{
+	width: 30%;
+	height: 200px;
+	margin: 10px 25px 10px 25px;
+	box-shadow: 5px 5px #f4f4f4;
+	border-radius: 2%;
+}
+
+#explore2{
+	height: 600px;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+
+#explore2 img{
+	width: 30%;
+	height: 200px;
+	margin: 10px 25px 10px 25px;
+	box-shadow: 5px 5px #579a9f;
+	border-radius: 2%;
+}
+
+#explore2 h3{
+	border-color: #928787;
+}
+
+#review{
+	background-color: #579a9f;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+form{
+	padding-left: 150px;
+}
+
+footer{
+	background-color: #6c6d6d;
+	text-align: center;
+	height: 25px;
+	padding: 15px;
+}
+
+
